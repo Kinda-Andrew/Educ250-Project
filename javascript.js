@@ -37,7 +37,7 @@ function initTypewriter() {
   const cursor = document.getElementById('cursor');
   if (!el) return;
 
-  const message = 'filler title for repo test'; // text change here for changes
+  const message = 'Test Time'; // text change here for changes
   const prefersReducedMotion = window.matchMedia(
     '(prefers-reduced-motion: reduce)'
   ).matches;
